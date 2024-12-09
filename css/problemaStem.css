@@ -1,0 +1,86 @@
+body {
+    background-color: mediumblue;
+    color: white;
+    font-family: 'Comfortaa', cursive;
+    font-size: 1.2em;
+    padding: 0;
+    margin: 0;
+    min-height: 100vh;
+}
+
+header, footer {
+    color: purple;
+    background-color: #aeaca8;
+    text-align: center;
+    padding: 10px;
+}
+
+header {
+    font-size: 1.5em;
+}
+
+footer {
+    font-size: 1em;
+}
+
+button {
+    font-size: 1em;
+    width: auto;
+    height: 40px;
+    background-color: orange;
+    color: white;
+    border-radius: 5px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkorange;
+}
+
+#contenedor {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    gap: 10px;
+    padding: 20px;
+}
+
+.problema, .esquemaProblema, .formulas, .datos, .calculos, .resultado {
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.problema {
+    background-color: #094293;
+    color: gold;
+}
+
+.esquemaProblema {
+    background-color: #00509e;
+}
+.imgProblema {
+    max-width: 80%;
+    max-height: 50%;
+    border-radius: 10px;
+    object-fit: cover; /* Asegura que la imagen se ajuste sin deformarse */
+    width: 100%; /* Ajustar al ancho del contenedor */
+    height: auto; /* Mantener las proporciones de la imagen */
+}
+
+.datos {
+    background-color: #b30000;
+}
+
+.formulas {
+    background-color: orangered;
+}
+
+.calculos {
+    background-color: indigo;
+}
+
+.resultado {
+    background-color: mediumvioletred;
+}
